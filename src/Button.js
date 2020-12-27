@@ -2,12 +2,8 @@ import React from 'react';
 
 function Botton(props) {
 
-  const fetchData = () => { 
-    props.setHidden(true)
-  }
-
   return (
-    <button onClick={fetchData}>{ props.text }</button>
+    <button onClick={props.method}>{ props.text }</button>
   );
 }
 

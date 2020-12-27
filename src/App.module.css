@@ -12,26 +12,27 @@ header {
  align-items: center;
 }
 
-a {
- color: #fff;
+#header a {
+  color: #fff;
 }
 
 table { 
- margin-left: 10px;
- border-collapse: separate;
+  margin-left: 10px;
+  border-collapse: separate;
 }
 th {
- color: #fff;
- background-color: #55c500;    /* 背景色指定 */
- font-weight: normal;       /* 文字の太さ指定 */
+  color: #fff;
+  background-color: #55c500;    /* 背景色指定 */
+  font-weight: normal;       /* 文字の太さ指定 */
 }
 td {
- background: #eee;
+  color: #000;
+  background: #eee;
 }
 tr:nth-child(even) td {
- background: #fff;
+  background: #fff;
 }
 th,td {
- padding: 5px 10px;          /* 余白指定 */
+  padding: 5px 10px;          /* 余白指定 */
 }
 
