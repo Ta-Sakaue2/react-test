@@ -3,17 +3,18 @@ body {
   padding: 0;
 }
 
+a{
+  color: inherit;
+}
+
 header {
  height: 35px;
  font-size: 15px;
+ color: #fff;
  background-color: #55c500;
  padding-left: 15px;
  display: flex;
  align-items: center;
-}
-
-#header a {
-  color: #fff;
 }
 
 table { 

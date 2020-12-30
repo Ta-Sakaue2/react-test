@@ -2,8 +2,8 @@ import React from 'react';
 
 function Header() {
   return (
-    <header id="header">
-      <a href="https://qiita.com/">Qiitaへ</a>
+    <header>
+      <a href="https://qiita.com/" rel="noreferrer noopener" target="_blank">Qiitaへ</a>
     </header>
   );
 }
